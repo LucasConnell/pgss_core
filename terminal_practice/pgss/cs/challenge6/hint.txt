@@ -1,0 +1,14 @@
+Sometimes, you'll have to learn a new skill in order to solve a challenge. 
+
+Let's learn about "grep"! 
+
+The terminal command grep lets you search text. This is especially useful if you have a ton of text to search through...
+
+grep takes two arguments, a word to find and a file to search. Here's the general form: 
+grep [word] [file] 
+
+
+
+To find the word "the" (and everything else on that line), run 
+
+grep the big_honkin_file

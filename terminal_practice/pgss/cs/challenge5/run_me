@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Things that come before hashtags are comments! They live inside the code, but they aren't run like code
+# They usually just serve to tell people reading the code what's going on
+
+# Sometimes, you'll have to look at files in languages that you haven't seen before! But, most languages share some common features, and you're smart, so I think you can piece together what's going on in here!
+
+echo "Enter the secret number..."
+
+read num
+
+if [ $num -eq 1729 ]
+then
+	echo "The flag: picoCTF{$num}"
+else
+	echo "That's not the secret number!"
+fi
